@@ -23,15 +23,15 @@
             </a>
 
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="/add_item">
+              <nuxt-link class="navbar-item" to="/add_item">
                 <b>Add Item</b>
-              </a>
-              <a class="navbar-item" href="/del_item">
+              </nuxt-link>
+              <nuxt-link class="navbar-item" to="/del_item">
                 <b>Delete Item</b>
-              </a>
-              <a class="navbar-item" href="/list_items">
+              </nuxt-link>
+              <nuxt-link class="navbar-item" to="/list_items">
                 <b>View Items</b>
-              </a>
+              </nuxt-link>
       
               </div>
             </div>
